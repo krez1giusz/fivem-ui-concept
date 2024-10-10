@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #63ffb4;
+  --primary-color-rgb: 99, 255, 180;
+}
+
+
+
+.main-window{
+  display:flex;
+  height:100%;
+  width:100%;
+  user-select:none;
+  position:absolute;
+}

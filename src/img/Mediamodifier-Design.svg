@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="42" height="42" viewBox="0 0 42 42" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 21 21)" id="dc47c7c7-a9d7-4cb2-a780-3c9d24ff0d2b"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-21" y="-21" rx="0" ry="0" width="42" height="42" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="ac4aab44-3cbe-403c-8322-ed8da7eec44f"  >
+</g>
+<g transform="matrix(0.03 0 0 0.03 21 21)"  >
+<g style="" vector-effect="non-scaling-stroke"   >
+		<g transform="matrix(33.33 0 0 33.33 0 66.67)"  >
+<path style="stroke: rgb(28,39,76); stroke-width: 1.5; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-12, -14)" d="M 12 17 L 12 11" stroke-linecap="round" />
+</g>
+		<g transform="matrix(33.33 0 0 -33.33 0 -133.33)"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(28,39,76); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  cx="0" cy="0" r="1" />
+</g>
+		<g transform="matrix(33.33 0 0 33.33 0 0)"  >
+<path style="stroke: rgb(28,39,76); stroke-width: 1.5; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: none; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-12, -12)" d="M 7 3.33782 C 8.47087 2.48697 10.1786 2 12 2 C 17.5228 2 22 6.47715 22 12 C 22 17.5228 17.5228 22 12 22 C 6.47715 22 2 17.5228 2 12 C 2 10.1786 2.48697 8.47087 3.33782 7" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

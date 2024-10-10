@@ -1,0 +1,182 @@
+
+
+
+.settings {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 95%;
+    width: 20%;
+    margin: 15px;
+    border-radius: 4px;
+    transform: perspective(4000px) rotate3d(0, 1, 0, 20deg);
+    transform-style: preserve-3d;
+    align-items: center;
+    gap: 10px;
+    transition: .2s all ease-in-out;
+    box-shadow: inset 0px 0px 100px 2px rgba(128, 128, 128, 0.199);
+    border: 1px solid rgba(128, 128, 128, 0.31);
+}
+
+.setting {
+    color: white;
+    margin: 5px;
+    display: flex;
+    height: fit-content;
+    width: 90%;
+    justify-content: space-between;
+    background-color:rgba(228, 222, 222, 0.048);
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    box-shadow: inset 0px 0px 20px 2px rgba(8, 8, 8, 0.452);
+    padding: 10px;
+    align-items: center;
+}
+
+.optionTitle, .containerTitle {
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    color: var(--primary-color);
+    transition: .2s all ease-in-out;
+}
+
+.containerTitle {
+    color:rgb(200,14,51);
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 
+    0 0 5px rgb(200,14,51), 
+    0 0 10px rgb(200,14,51), 
+    0 0 20px rgb(200,14,51), 
+    0 0 40px rgb(200,14,51), 
+    0 0 80px rgb(200,14,51), 
+    0 0 90px rgb(200,14,51), 
+    0 0 100px rgb(200,14,51), 
+    0 0 150px rgb(200,14,51);
+}
+
+
+.textShadow {
+    text-shadow: 
+    0 0 5px var(--primary-color), 
+    0 0 10px var(--primary-color), 
+    0 0 20px var(--primary-color), 
+    0 0 40px var(--primary-color), 
+    0 0 80px var(--primary-color), 
+    0 0 90px var(--primary-color), 
+    0 0 100px var(--primary-color), 
+    0 0 150px var(--primary-color);
+    transition: .2s all ease-in-out;
+}
+
+/* Default checkbox styling without label */
+input[type="checkbox"] {
+    appearance: none;
+    width: 26px;
+    height: 26px;
+    background-color: #ffffff00;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+input[type="checkbox"]:hover {
+    box-shadow: 0 0 20px var(--primary-color); /* Add box shadow */
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--primary-color), 0 0 30px var(--primary-color); /* Add glow effect */
+}
+
+input[type="checkbox"]:checked::before {
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+}
+
+.chevronIcon {
+    color: var(--primary-color);
+    font-size: 24px;
+    width: 32px;
+    transition: .1s all ease-in-out;
+}
+
+.chevronIcon path {
+    transition: .1s all ease-in-out;
+}
+
+.chevronIcon path:hover {
+    cursor: pointer;
+}
+
+.chevronIcon:hover path {
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px var(--primary-color)) drop-shadow(0 0 10px var(--primary-color)) drop-shadow(0 0 15px var(--primary-color));
+    transform: scale(1.1);
+    transition: .1s all ease-in-out;
+}
+
+/* Custom styles for color input */
+input[type="color"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 60px;
+    height: 28px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.chevronSteering {
+    display: grid;
+    grid-template-columns: repeat(3, 20px);
+    grid-template-rows: repeat(3, 20px);
+    gap: 5px; /* Optional: Adds space between the squares */
+}
+
+.chevronSteering > div {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .05s ease-in-out; /* Ensure smooth transition */
+}
+
+.icon-container {
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .hoverable-icon {
+    color: white;
+    cursor:pointer;
+    transition: all 0.2s ease;
+  }
+
+  .icon-container:hover .hoverable-icon {
+    cursor:pointer;
+    color: var(--primary-color);
+    font-size:22px;
+    filter: drop-shadow(0 0 5px var(--primary-color)) drop-shadow(0 0 10px var(--primary-color)) drop-shadow(0 0 15px var(--primary-color));
+  }
+  
+
+
+
+  .flexColumn{
+    display:flex;
+    flex-direction: column;
+
+    gap:5px;
+  }

@@ -1,0 +1,94 @@
+
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
+
+.alertOverlay{
+    position:fixed;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+
+.alertDialog {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px;
+    border:2px solid red;
+    width:350px;
+    height:200px;
+    padding:15px;
+    background-color:rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 2px rgba(128, 128, 128, 0.212);
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    transition: all .2s ease-in-out
+
+
+}
+
+
+.alertTitle{
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--primary-color);
+    font-size: 24px;
+    text-shadow: 
+    0 0 5px var(--primary-color), 
+    0 0 10px var(--primary-color), 
+    0 0 20px var(--primary-color), 
+    0 0 40px var(--primary-color), 
+    0 0 80px var(--primary-color), 
+    0 0 90px var(--primary-color), 
+    0 0 100px var(--primary-color), 
+    0 0 150px var(--primary-color);
+
+
+}
+
+.alertContent{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.flexRow{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: center;
+    gap:15px;
+}
+
+.alertDesc{
+    color:white;
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 1);
+}
+
+.alertBtn {
+    color:white;
+    background-color:rgba(228, 222, 222, 0.048);
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    box-shadow: inset 0px 0px 20px 2px rgba(8, 8, 8, 0.452);
+    width:80px;
+    padding:5px;
+    transition: all .2s ease-in-out;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.ok:hover{
+    background-color:green;
+}
+
+
+.no:hover{
+    background-color:red;
+}

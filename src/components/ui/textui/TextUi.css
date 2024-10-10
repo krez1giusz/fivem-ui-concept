@@ -1,0 +1,71 @@
+.textui {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    height: 80px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-family: 'Lemon/Milk light', sans-serif;
+    font-weight: bold;
+    margin:30px;
+    transition: all .2s ease-in-out;
+}
+
+.square {
+    position: absolute;
+    -webkit-transform: rotate(45deg) translate(1px, 0px);
+    -moz-transform: rotate(45deg) translate(1px, 0px);
+    -ms-transform: rotate(45deg) translate(1px, 0px);
+    -o-transform: rotate(45deg) translate(1px, 0px);
+    transform: rotate(45deg) translate(1px, 0px);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 2px rgba(128, 128, 128, 0.199);
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 80%;
+    height: 80%;
+    border-radius:4px;
+    
+    box-shadow: inset 0px 0px 25px 2px rgba(var(--primary-color-rgb), 0.2);
+    border: 1px solid rgba(var(--primary-color-rgb), 0.31);
+    
+}
+
+.textBar {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 4px;
+    font-style: italic;
+    color: var(--primary-color);
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 20px 7px rgba(128, 128, 128, 0.199);
+    border: 1px solid rgba(128, 128, 128, 0.31);
+    text-shadow: 
+        0 0 5px var(--primary-color), 
+        0 0 10px var(--primary-color), 
+        0 0 20px var(--primary-color), 
+        0 0 40px var(--primary-color), 
+        0 0 80px var(--primary-color), 
+        0 0 90px var(--primary-color), 
+        0 0 100px var(--primary-color), 
+        0 0 150px var(--primary-color);
+}
